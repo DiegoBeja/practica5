@@ -1,4 +1,4 @@
-package Practica5;
+//package Practica5;
 import java.util.ArrayList;
 
 public class Jugador {

@@ -1,4 +1,4 @@
-package Practica5;
+//package Practica5;
 
 public class Carta implements Comparable<Carta>{
     private int valor;
@@ -10,7 +10,7 @@ public class Carta implements Comparable<Carta>{
     }
 
     public String getValor(){
-        switch (valor) {
+        switch(valor) {
             case 11:
                 return "J de " + tipo;
             case 12:
@@ -22,6 +22,14 @@ public class Carta implements Comparable<Carta>{
             default:
                 return valor + " de " + tipo;
         }
+    }
+
+    public int getValorEntero(){
+        return this.valor;
+    }
+
+    public Palo getTipo(){
+        return tipo;
     }
 
     public int compareTo(Carta otraCarta){
