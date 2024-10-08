@@ -1,4 +1,4 @@
-package Practica5;
+
 
 public class Juego{
     public static void main(String[] args){

@@ -1,12 +1,19 @@
-package Practica5;
-
 public class Carta implements Comparable<Carta>{
     private int valor;
     private Palo tipo;
     
+    
     public Carta(int valor, Palo tipo){
         this.valor = valor;
         this.tipo = tipo;
+    }
+
+    public int getValorEntero(){
+        return this.valor;
+    }
+
+    public Palo getTipo(){
+        return tipo;
     }
 
     public String getValor(){
